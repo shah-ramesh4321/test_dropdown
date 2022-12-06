@@ -1,12 +1,11 @@
 import { useState } from "react";
 import "./styles.css";
-import Test from "./Test";
 
 export default function App() {
   let data = {
     science: ["Biology", "Physics"],
     commerce: ["Account"],
-    art: ["Drawing"]
+    art: ["Drawing"],
   };
   const [showSubject, setShowSubject] = useState(false);
   const [selectedSubject, setSelectedSubject] = useState(false);
