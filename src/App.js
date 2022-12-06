@@ -43,12 +43,7 @@ export default function App() {
         </select>
       )}
       {showNumber && (
-        <input
-          type="number"
-          placeholder="Please input your mark."
-          min="0"
-          max="100"
-        />
+        <input type="number" placeholder="Mark" min="0" max="100"  />
       )}
     </div>
   );
